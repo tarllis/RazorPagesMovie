@@ -27,14 +27,16 @@ namespace RazorPagesMovie.Models
                         Titulo = "When Harry Met Sally",
                         Data = DateTime.Parse("1989-2-12"),
                         Genero = "Romantic Comedy",
-                        Preço = 7.99M
+                        Preço = 7.99M,
+                        Rating = "G"
                     },
                          new Movie
                          {
                              Titulo = "Ghostbusters ",
                              Data = DateTime.Parse("1984-3-13"),
                              Genero = "Comedy",
-                             Preço = 8.99M
+                             Preço = 8.99M,
+                             Rating = "G"
                          },
 
                 new Movie
@@ -42,7 +44,8 @@ namespace RazorPagesMovie.Models
                     Titulo = "Ghostbusters 2",
                     Data = DateTime.Parse("1986-2-23"),
                     Genero = "Comedy",
-                    Preço = 9.99M
+                    Preço = 9.99M,
+                    Rating = "G"
                 },
 
                 new Movie
@@ -50,7 +53,8 @@ namespace RazorPagesMovie.Models
                     Titulo = "Rio Bravo",
                     Data = DateTime.Parse("1959-4-15"),
                     Genero = "Western",
-                    Preço = 3.99M
+                    Preço = 3.99M,
+                    Rating = "G"
 
                 }
                     );
